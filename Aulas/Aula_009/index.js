@@ -1,3 +1,4 @@
 const num1 = 9
-const num2 = 3
-console.log(num1 ** num2)
+let num2 = '3.3'
+num2 = Number(num2)
+console.log(num2)
