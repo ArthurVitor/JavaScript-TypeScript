@@ -4,8 +4,8 @@ function saudacao(nome='Arthur', idade){
 
 saudacao('Cleber', 15)
 
-let lamba = (n) => {
+let lambda = (n) => {
     return n ** 0.5
 }
 
-console.log(lamba(9))
+console.log(lambda(9))
