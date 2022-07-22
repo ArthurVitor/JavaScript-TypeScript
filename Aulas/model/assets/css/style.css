@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+:root{
+    --primaryColor: rgb(13, 106, 134);
+    --primaryColorDarker: rgb(21, 76, 92);
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: var(--primaryColor);
+}
+
+.container{
+    max-width: 640px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--primaryColor);
+}
+
+form button {
+    border: none;
+    background: var(--primaryColor);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background-color: var(--primaryColorDarker);
+}
+
+.paragrafo-resultado, .bad{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.bad{
+    background: rgb(232, 72, 72);
+}
